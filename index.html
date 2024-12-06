@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decision Making CheckPoint</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Decision Making -->
+    <!-- Ticket Pricing: 
+    Write a program that prompts the user to enter their age and then determines the price of a movie ticket based on the following criteria:
+    Children (age <= 12): $10
+    Teenagers (age 13-17): $15
+    Adults (age >= 18): $20 -->
+    <section class="ticket">
+        <h1 style="color: wheat; font-size: 50px;">Cinema</h1>
+        <div class="box1">
+            <h1 class="title1">Welcome</h1>
+            <h1 class="title2">Please enter your age to get the price</h1>
+            <div class="aage">
+                <input class="age" type="number" min="0" placeholder="Enter Your Age" required>
+                <button class="button">Get Price</button>
+            </div>
+            <input class="price" type="text" value="Ticket price will be here" disabled>
+        </div>
+    </section>
+    <!-- Weather Clothing Adviser: 
+     Develop a program that asks the user for the current temperature and whether it is raining or not. 
+     Based on this information, advise the user on what clothing to wear. -->
+    <section class="weather">
+        <div class="box2">
+            <h1 class="title1">Welcome</h1>
+            <h1 class="title2">Please enter the current temperature</h1>
+            <div class="temp">
+                <div class="info">
+                    <input id="temperature" class="temperature" type="number" min="0" placeholder="Enter the temperature" required>
+                    <label><input type="radio" name="raining" value="yes" checked> Raining</label>
+                    <label><input type="radio" name="raining" value="no"> Not Raining</label>
+                </div>
+                <button class="buttontemp">Get advice</button>
+            </div>
+            <input class="advice" type="text" value="Your Advice will appear here" disabled>
+        </div>
+        <h1 style="color: wheat; font-size: 50px;">Whether Adviser</h1>
+    </section>
+    <!-- Recursion -->
+    <!-- Palindrome Checker: Create a recursive function to check if a given string is a palindrome 
+    (reads the same forwards and backwards), ignoring spaces, punctuation, and capitalization. -->
+    <section class="pal">
+        <h1 style="color: #DAF7A6; font-size: 50px;">Palindrome</h1>
+        <div class="box3">
+            <h1 class="title1">Welcome</h1>
+            <h1 class="title2">Please enter your sentence</h1>
+            <div class="sensect">
+                <input class="sentence" type="text"  placeholder="Enter Your Sentence" required>
+                <button class="palbutton">Get Result</button>
+            </div>
+            <input class="result" type="text" value="Result will be here" disabled>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

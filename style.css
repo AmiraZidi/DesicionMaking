@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Decision Making */
+/* exercice cinema */
+.ticket{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1919;
+}
+
+.ticket .box1{
+    background-color: #c40808;
+    color: #000000;
+    box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ticket .title1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.ticket .title1::first-letter{
+    font-size: 50px;
+}
+
+.ticket .title2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.ticket .age{
+    width: 250px;
+    text-align: center;
+    background-color: #c22020;
+    border: none;
+    height: 50px;
+    outline: none;
+    border-radius: 20px;
+    color: wheat;
+}
+
+.ticket .aage{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ticket .button{
+    background-color: #c22020;
+    color: wheat;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    
+}
+.ticket .button:hover{
+    background-color: #790a0a;
+    color: wheat;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+    -webkit-box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+    -moz-box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+}
+
+.ticket .price{
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+
+/* exercice temperature */
+.weather{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #15577e;
+}
+
+.weather .box2{
+    background-color: #eeec96;
+    color: #000000;
+    box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.weather .title1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    color: #052a3f;
+}
+
+.weather .title1::first-letter{
+    font-size: 50px;
+}
+
+.weather .title2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.weather .temperature{
+    width: 250px;
+    text-align: center;
+    background-color: #d8d66e;
+    border: none;
+    height: 50px;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+}
+
+.weather .temp{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.weather .buttontemp{
+    background-color: #ecd761;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    
+}
+.weather .buttontemp:hover{
+    background-color: #c4aa17;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+    -webkit-box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+    -moz-box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+}
+
+.weather .advice{
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    width: 90%;
+}
+
+.weather .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+
+/* Recursion */
+
+/* palindrome */
+.pal{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: #16a085;
+}
+
+.pal .box3{
+    background-color: #DAF7A6 ;
+    color: #000000;
+    box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px -1px 50px 1px rgba(0,0,0,0.43);
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pal .title1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+.pal .title1::first-letter{
+    font-size: 50px;
+}
+
+.pal .title2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 15px;
+}
+
+.pal .sentence{
+    width: 250px;
+    text-align: center;
+    background-color: #d7dbdd;
+    border: none;
+    height: 50px;
+    outline: none;
+    border-radius: 20px;
+    color: #333;
+}
+
+.pal .sensect{
+    width: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.pal .palbutton{
+    background-color: #d7dbdd;
+    color: #333;
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    
+}
+.pal .palbutton:hover{
+    background-color: #a4a5a7;
+    color: #333;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+    -webkit-box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+    -moz-box-shadow: -1px -1px 28px -12px rgba(0,0,0,0.95) inset;
+}
+
+.pal .result{
+    background-color: transparent;
+    color: #000000;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
